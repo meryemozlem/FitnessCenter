@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|c:\\users\\mozay\\desktop\\fitnesscenter\\fitnesscenter\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|solutionrelative:fitnesscenter\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|C:\\Users\\mozay\\Desktop\\FitnessCenter\\fitnesscenter\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|solutionrelative:fitnesscenter\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|C:\\Users\\mozay\\Desktop\\FitnessCenter\\fitnesscenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|solutionrelative:fitnesscenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|c:\\users\\mozay\\desktop\\fitnesscenter\\fitnesscenter\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|solutionrelative:fitnesscenter\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|c:\\users\\mozay\\desktop\\fitnesscenter\\fitnesscenter\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8238BD-C40C-4675-98D8-9915B6ACC68E}|FitnessCenter\\FitnessCenter.csproj|solutionrelative:fitnesscenter\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddMember.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\AddMember.cs",
+              "RelativeDocumentMoniker": "FitnessCenter\\AddMember.cs",
+              "ToolTip": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\AddMember.cs [Tasar\u0131m]*",
+              "RelativeToolTip": "FitnessCenter\\AddMember.cs [Tasar\u0131m]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:53:26.366Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Main.cs",
+              "RelativeDocumentMoniker": "FitnessCenter\\Main.cs",
+              "ToolTip": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Main.cs",
+              "RelativeToolTip": "FitnessCenter\\Main.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAlwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:44:14.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Program.cs",
+              "RelativeDocumentMoniker": "FitnessCenter\\Program.cs",
+              "ToolTip": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Program.cs",
+              "RelativeToolTip": "FitnessCenter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:15:14.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Main.cs",
+              "RelativeDocumentMoniker": "FitnessCenter\\Main.cs",
+              "ToolTip": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Main.cs [Tasar\u0131m]",
+              "RelativeToolTip": "FitnessCenter\\Main.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:03:12.855Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Login.cs",
+              "RelativeDocumentMoniker": "FitnessCenter\\Login.cs",
+              "ToolTip": "C:\\Users\\mozay\\Desktop\\FitnessCenter\\FitnessCenter\\Login.cs [Tasar\u0131m]",
+              "RelativeToolTip": "FitnessCenter\\Login.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:41:14.827Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
