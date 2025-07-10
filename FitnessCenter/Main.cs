@@ -49,6 +49,11 @@ namespace FitnessCenter
             this.Hide();
         }
 
-        
+        private void guna2GradientTileButton3_Click(object sender, EventArgs e)
+        {
+            SeeMmbers seem = new SeeMmbers();
+            seem.Show();
+            this.Hide();
+        }
     }
 }

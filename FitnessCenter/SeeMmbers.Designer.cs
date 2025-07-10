@@ -37,7 +37,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.araUyeTB = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ListMembrDGV)).BeginInit();
             this.panel1.SuspendLayout();
@@ -69,6 +69,7 @@
             this.button1.TabIndex = 54;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -149,16 +150,16 @@
             this.guna2CirclePictureBox1.TabIndex = 7;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
-            // textBox1
+            // araUyeTB
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(395, 128);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 37);
-            this.textBox1.TabIndex = 58;
+            this.araUyeTB.BackColor = System.Drawing.SystemColors.Info;
+            this.araUyeTB.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.araUyeTB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.araUyeTB.Location = new System.Drawing.Point(395, 128);
+            this.araUyeTB.Multiline = true;
+            this.araUyeTB.Name = "araUyeTB";
+            this.araUyeTB.Size = new System.Drawing.Size(182, 37);
+            this.araUyeTB.TabIndex = 58;
             // 
             // button2
             // 
@@ -171,8 +172,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 37);
             this.button2.TabIndex = 59;
-            this.button2.Text = "Reset";
+            this.button2.Text = "Refresh";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // SeeMmbers
             // 
@@ -181,7 +183,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(895, 475);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.araUyeTB);
             this.Controls.Add(this.ListMembrDGV);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
@@ -209,7 +211,7 @@
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox araUyeTB;
         private System.Windows.Forms.Button button2;
     }
 }

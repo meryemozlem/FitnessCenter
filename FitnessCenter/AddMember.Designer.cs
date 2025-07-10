@@ -284,7 +284,7 @@
             this.button1.ForeColor = System.Drawing.Color.Snow;
             this.button1.Location = new System.Drawing.Point(143, 391);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 52);
+            this.button1.Size = new System.Drawing.Size(117, 52);
             this.button1.TabIndex = 20;
             this.button1.Text = "Added";
             this.button1.UseVisualStyleBackColor = false;

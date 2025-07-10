@@ -44,7 +44,19 @@ namespace FitnessCenter
             PaymentDGV.DataSource = ds.Tables[0];
             cnn.Close();
         }
+        private void NameFilter()
+        {
 
+            cnn.Open();
+            string query = "SELECT * FROM OdemeTBL WHERE OUye LIKE @uye";
+            SqlDataAdapter sda = new SqlDataAdapter(query, cnn);
+            sda.SelectCommand.Parameters.AddWithValue("@uye", "%" + araTB.Text + "%");
+
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            PaymentDGV.DataSource = dt;
+            cnn.Close();
+        }
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
@@ -79,9 +91,7 @@ namespace FitnessCenter
             }
             else
             {
-                string month = PeriodDTP.Value.Month.ToString("D2");
-                string year = PeriodDTP.Value.Year.ToString();
-                string amountperiod = $"{month}-{year}"; // Örnek: 07-2025
+                string amountperiod = $"{PeriodDTP.Value.Month:D2}-{PeriodDTP.Value.Year}";
 
                 cnn.Open();
 
@@ -121,6 +131,17 @@ namespace FitnessCenter
                 Uyeler();
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NameFilter();
+            araTB.Text = "";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Uyeler();
         }
     }
 }

@@ -34,6 +34,20 @@ namespace FitnessCenter
             ListMembrDGV.DataSource = ds.Tables[0];
             cnn.Close();
         }
+        private void NameFilter()
+        {
+
+            cnn.Open();
+            string query = "SELECT * FROM UyeTBL WHERE UAdSoyad LIKE @uye";
+            SqlDataAdapter sda = new SqlDataAdapter(query, cnn);
+            sda.SelectCommand.Parameters.AddWithValue("@uye", "%" + araUyeTB.Text + "%");
+            SqlCommandBuilder builder = new SqlCommandBuilder();
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            ListMembrDGV.DataSource = dt;
+            cnn.Close();
+        }
+
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -46,9 +60,20 @@ namespace FitnessCenter
 
         private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
         {
-            Login lg = new Login();
-            lg.Show();
+            Main mn = new Main();
+            mn.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NameFilter();
+            araUyeTB.Text = "";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Uyeler();
         }
     }
 }
