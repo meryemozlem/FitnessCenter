@@ -2,7 +2,7 @@
 
 Bu proje, bir fitness salonunda üyelerin yönetimi ve aylık ödeme takibinin yapılabilmesi için geliştirilmiş bir masaüstü uygulamasıdır.  
 Kullanıcı girişi, üye ekleme, ödeme kayıtları ve üye yönetimi gibi temel işlemler kolayca gerçekleştirilebilir.
-
+Herhangi bir soru, öneri veya geri bildirim için bana ulaşabilirsiniz.
 ---
 
 ## 🎯 Özellikler
