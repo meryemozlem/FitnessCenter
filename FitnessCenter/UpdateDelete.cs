@@ -17,8 +17,8 @@ namespace FitnessCenter
         {
             InitializeComponent();
         }
-
-        SqlConnection cnn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\mozay\Documents\FitnessDb.mdf;Integrated Security=True;Connect Timeout=30;");
+//Db string
+        SqlConnection cnn = new SqlConnection(@"//");
 
         private void Uyeler()
         {
