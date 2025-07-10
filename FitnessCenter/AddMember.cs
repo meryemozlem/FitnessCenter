@@ -19,7 +19,7 @@ namespace FitnessCenter
             InitializeComponent();
         }
         //DB Connected, bağlantı dizesi
-        SqlConnection cnn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\mozay\Documents\FitnessDb.mdf;Integrated Security=True;Connect Timeout=30;");
+        SqlConnection cnn = new SqlConnection(@"//");
 
         private void AddMember_Load(object sender, EventArgs e)
         {
