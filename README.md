@@ -32,7 +32,7 @@ Herhangi bir soru, öneri veya geri bildirim için bana ulaşabilirsiniz.
 - 📐 **Visual Studio**
 
 ---
-(SQL ile vs code da database oluşturmayı unutmayınız.)
+(Bağlantı Ekle --> SQL ile vs code da database oluşturmayı unutmayınız.)
 <img width="266" height="339" alt="image" src="https://github.com/user-attachments/assets/62d06391-5d35-4b4e-9e72-888710156d7d" />
 
 ---
